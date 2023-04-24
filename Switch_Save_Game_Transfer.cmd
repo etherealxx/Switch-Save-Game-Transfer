@@ -143,6 +143,11 @@ set switch_save_directories[!i!].title=Splatoon 2
 set switch_save_directories[!i!].ryujinx=%ryujinx_save_file_directory%\00000000000000{xx}\0
 set switch_save_directories[!i!].yuzu=%yuzu_save_file_directory%\01003BC0000A0000
 call :AddAboveGame
+:: Splatoon 3
+set switch_save_directories[!i!].title=Splatoon 3
+set switch_save_directories[!i!].ryujinx=%ryujinx_save_file_directory%\00000000000000{xx}\0
+set switch_save_directories[!i!].yuzu=%yuzu_save_file_directory%\0100C2500FC20000
+call :AddAboveGame
 :: Super Mario 3D All-Stars
 set switch_save_directories[!i!].title=Super Mario 3D All-Stars
 set switch_save_directories[!i!].ryujinx=%ryujinx_save_file_directory%\00000000000000{xx}\0
